@@ -1,0 +1,14 @@
+[tool.isort]
+profile = "black"
+src_paths = ["isort", "test"]
+sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
+combine_as_imports = "true"
+multi_line_output = 5
+known_third_party = [""]
+
+
+[tool.pycodestyle]
+count = "false"
+#ignore = E226,E302,E41
+max-line-length = 120
+statistics = "true"
